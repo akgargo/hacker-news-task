@@ -29,7 +29,7 @@
       element.addEventListener('click', (event) => {
         event.preventDefault();
         window.open(element.getAttribute('href'),'_blank');
-      });
+      }, false);
 
       deleteButton.addEventListener('click', (event) => {
         event.preventDefault();
@@ -42,7 +42,7 @@
         }).done(() => {
           $(element).remove();
         });
-
+        return false;
       }, false);
     });
   });
