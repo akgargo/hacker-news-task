@@ -1,0 +1,57 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+  background: #555;
+  color: #fff;
+	font-family: 'Baloo Thambi', cursive;
+  margin: 0 0 15px 0;
+  padding: 40px;
+}
+header > h1 {
+	font-size: 72px;
+}
+header > small {
+  font-size: 24px;
+  margin-top: -20px;
+  position: absolute;
+}
+
+a.list-group-item {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	font-size: 13pt;
+}
+
+a.list-group-item > div > .title, 
+a.list-group-item > div > .time {
+	color: #333;
+	font-size: 13pt;
+}
+
+a.list-group-item > div > .author {
+	color: #999; 
+}
+a.list-group-item > .delete {
+	display: none;
+	text-align: center;
+	z-index: 999;
+}
+a.list-group-item:focus > .delete,
+a.list-group-item:hover > .delete {
+	display: block;
+}
+a.list-group-item > .delete:after {
+  content: "\e020";
+	font-family: 'Glyphicons Halflings';
+  font-style: normal;
+}
+a.list-group-item > .delete:hover,
+a.list-group-item > .delete:focus {
+	color: red;
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+ 	background-color: #fafafa;
+ 	cursor: pointer;
+}

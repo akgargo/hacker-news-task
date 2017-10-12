@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title HN Feed
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Roboto")
+    link(rel='stylesheet', href='/assets/css/bootstrap/bootstrap.min.css')
+    link(rel='stylesheet', href='/assets/css/style.css')
+    script(src="/assets/js/jquery/jquery.min.js")
+    script(src="/assets/js/moment/moment.min.js")
+    script(src="/assets/js/socket.io/socket.io.js")
+    script(src="/assets/js/utils/util.js")
+  body
+    header
+      h1 HN Feed
+      small We <3 hacker news!
+    section.container-fluid
+      div.list-group(id="post-list")
+
+    script(src="/assets/js/functions.js")

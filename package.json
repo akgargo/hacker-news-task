@@ -1,0 +1,23 @@
+{
+  "name": "hacker-news-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Monsalve",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.1",
+    "jquery": "^3.2.1",
+    "moment": "^2.19.1",
+    "mongodb": "^2.2.31",
+    "pug": "^2.0.0-rc.4",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "socket.io": "^2.0.3"
+  }
+}
