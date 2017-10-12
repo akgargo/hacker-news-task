@@ -31,7 +31,7 @@ What things you need to install
   ```
     $ git clone https://github.com/akgargo/hacker-news-task.git
   ```
-  Navigate via terminal to the repo folder and write
+  Navigate via terminal to the repo folder
   ```
     $ cd hacker-news-task
   ```
