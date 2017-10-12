@@ -22,16 +22,10 @@ What things you need to install
     Follow oficial tutorials (Start Mongo server at default port "27017")
     
     Linux
-    
-    ```
       https://docs.mongodb.com/v3.0/administration/install-on-linux/
-    ```
     
     Windows
-    
-    ```
       https://docs.mongodb.com/v3.0/tutorial/install-mongodb-on-windows/
-    ```
 
   Clone this repo in your local machine.
   ```
