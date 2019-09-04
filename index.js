@@ -1,4 +1,4 @@
-const port = 3700;
+const port = 4100;
 
 const puller = require('./lib/HackerNewsPuller');
 const posts = require('./lib/Posts');
